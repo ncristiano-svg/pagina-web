@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página com Imagem</title>
+    <style>
+        body {
+            background-color: #12161f;
+            color: #e2e8f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
 
+        header {
+            text-align: center;
+            padding: 30px 15px;
+            border-bottom: 2px solid #2d3748;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        main {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: #1e2433;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #7dd3fc;
+            margin-top: 0;
+        }
+
+        /* Estilo da imagem para mantê-la proporcional e integrada ao post */
+        .imagem-post {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        blockquote {
+            border-left: 4px solid #38bdf8;
+            padding-left: 15px;
+            margin-left: 0;
+            font-style: italic;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explorando o mundo do desenvolvimento web</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o projeto</h2>
+            <p>Aprendendo a estruturar e estilizar páginas web com sentido, contraste confortável e organização visual.</p>
+            
+            <!-- Imagem relacionada ao tema de programação web, com atributo alt descritivo -->
+            <img 
+                class="imagem-post"
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" 
+                alt="Notebook aberto sobre uma mesa mostrando linhas de código de desenvolvimento web na tela, ilustrando a prática de criar sites."
+            >
+
+            <blockquote>"A web é feita de conexões e boa estrutura."</blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido durante os estudos de HTML e CSS.</p>
+    </footer>
+
+</body>
+</html>
